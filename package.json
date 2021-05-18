@@ -1,11 +1,14 @@
 {
-  "name": "agar.io-clone",
-  "description": "a simple agar.io clone",
+  "name": "agar-clone",
   "version": "1.0.0",
-  "engines": {
-    "node": "14.x"
-  }
-}
+  "description": "A simple Agar.io clone",
+  "main": "server/server.js",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp run",
+    "watch": "gulp watch",
+    "test": "gulp test"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/huytd/agar.io-clone.git"
